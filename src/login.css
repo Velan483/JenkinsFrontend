@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@300..900&family=Rock+Salt&display=swap');
+body{
+  background-color: #FFF0F5;
+  /* background-image: url("https://repository-images.githubusercontent.com/356916985/cebcbf05-cf6a-4e55-9f28-a08d3c061919"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{  
+    font-family: "Merienda", cursive;
+}
+p,span{
+    font-family: "Kaushan Script", cursive;
+}
+#login{
+    text-align: center;
+    padding: 8px;
+    width:30%;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.783);
+    color:#FFD1DA;
+}
+.login{
+ margin: 15px;
+ width:85%;
+ height: 45px;
+ border-radius: 20px;
+ padding-left: 15px; 
+}
+a{
+    text-decoration: none;
+}
+.con {
+    position: relative;
+}
+#checkbox{
+    margin-top: 5px;
+    position: absolute;
+    left: 9%;
+}
+#rem-me{
+    position: absolute;
+    left: 13%;
+}
+#for-pass {
+    position: absolute;
+    right:9%;
+}
+@media screen and (max-width: 600px) {
+    #login {
+        width: 90%;
+    }
+}
+
+
+

@@ -1,8 +1,7 @@
 import React from 'react'
 import "./login.css";
 import { useState } from "react";
-import { BrowserRouter as Route,Link } from "react-router-dom";
-import Login from './Login';
+
 function Register() {
     
     const [inputData, setInputData] = useState({

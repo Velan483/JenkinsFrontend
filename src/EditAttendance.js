@@ -12,7 +12,7 @@ function EditAttendance() {
       .get("http://localhost:8084/attendance/" + id)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
-  }, []);
+  }, );
 
   let handleSubmit = (e) => {
     e.preventDefault();

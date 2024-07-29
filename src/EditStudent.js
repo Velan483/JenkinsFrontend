@@ -13,7 +13,7 @@ function EditStudent() {
       .get("http://localhost:8084/student/" + id)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
-  }, []);
+  }, );
 
   let handleSubmit = (e) => {
     e.preventDefault();

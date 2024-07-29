@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./App2.css";
 
 function View() {
-  const [columns, setColumns] = useState([]);
+  const [column,setColumns] = useState([]);
   const [records, setRecords] = useState([]);
   const navigate = useNavigate();
 

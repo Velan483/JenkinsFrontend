@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
-import App from "./App";
 import Home from "./Home";
 import AddStudent from "./AddStudent";
 import AddAttendance from "./AddAttendance"
